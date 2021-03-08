@@ -24,6 +24,9 @@ import { EditarGeneroComponent } from './generos/editar-genero/editar-genero.com
 import { EditarCineComponent } from './cines/editar-cine/editar-cine.component';
 import { EditarPeliculaComponent } from './peliculas/editar-pelicula/editar-pelicula.component';
 import { FormularioGeneroComponent } from './generos/formulario-genero/formulario-genero.component';
+import { FiltroPeliculasComponent } from './peliculas/filtro-peliculas/filtro-peliculas.component';
+import { FormularioActoresComponent } from './actores/formulario-actores/formulario-actores.component';
+import { InputImgComponent } from './utilidades/input-img/input-img.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +47,10 @@ import { FormularioGeneroComponent } from './generos/formulario-genero/formulari
     EditarGeneroComponent,
     EditarCineComponent,
     EditarPeliculaComponent,
-    FormularioGeneroComponent
+    FormularioGeneroComponent,
+    FiltroPeliculasComponent,
+    FormularioActoresComponent,
+    InputImgComponent
   ],
   imports: [
     AppRoutingModule,
