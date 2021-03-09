@@ -11,7 +11,16 @@
         <mat-datepicker #picker></mat-datepicker>
     </mat-form-field>
 
-    <app-input-img></app-input-img>
+    <!-- [urlImagenActual]="modelo.foto"  
+    COMPONENTE de imagen predeterminada FALLANDO 
+    ~~~input-img.component.ts~~~
+    ingresa el comando de aqui arriba y haz que devuelva un valor string
+    que no sea any como lo devuelve ahorita-->
+
+    <app-input-img 
+    
+        (archivoSeleccionado)="archivoSeleccionado($event)">
+    </app-input-img>
 
     <div>
         <button mat-flat-button color="primary" [disabled]="form.invalid">
